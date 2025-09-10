@@ -1,0 +1,50 @@
+.gradle
+/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Gradle
+.gradle/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+/out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+# Logs
+*.log
+
+# Temp
+*.tmp
+*.swp
+
+# Build artifacts
+/bin/
+
+# IntelliJ project files
+*.iml
+
+# Konfigurationen mit sensiblen Daten
+src/main/resources/application.properties
+src/main/resources/hibernate.cfg.xml
+
